@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Davao Vision Colleges, Inc. | Official Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Davao Vision Colleges, Inc.">
+    <meta name="description" content="Official website of Davao Vision Colleges, Inc., focusing on Vision, Integrity, and Excellence in education.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dvci-primary': '#1E3A8A', // Deep Blue
+                        'dvci-secondary': '#FBBF24', // Amber/Gold
+                        'dvci-text': '#374151',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        .scroll-mt-header {
+            scroll-margin-top: 100px; /* Adjust based on fixed header height */
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-dvci-text">
+    <header class="shadow-lg bg-white sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center space-x-2">
+                <div class="text-3xl font-extrabold text-dvci-primary">DVC</div>
+                <div class="text-sm font-semibold hidden sm:block">Davao Vision Colleges, Inc.</div>
+            </a>
+            <div class="space-x-4">
+                <a href="#about" class="text-dvci-primary hover:text-dvci-secondary font-medium">About DVCI</a>
+                <a href="#academics" class="text-dvci-primary hover:text-dvci-secondary font-medium">Academics</a>
+                <a href="#" class="bg-dvci-secondary text-dvci-primary font-bold py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-200">Apply Now</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="relative h-96 bg-dvci-primary overflow-hidden" id="dvci-hero">
+            <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFuWvM4awmDOE5XEiJQtMOVwnFl4EcsT34Tw&s');"></div>
+            <div class="relative container mx-auto px-4 h-full flex flex-col justify-center text-white">
+                <h1 class="text-5xl md:text-6xl font-extrabold mb-4 animate-fadeInUp">Davao Vision Colleges, Inc.</h1>
+                <p class="text-xl md:text-2xl font-light">Vision, Integrity, Excellence: Shaping Future Professionals</p>
+            </div>
+        </section>
+
+        <div class="container mx-auto px-4 py-12">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+
+                <div class="lg:col-span-9 mb-12">
+                    <section id="about" class="scroll-mt-header mb-12">
+                        <h2 class="text-3xl font-bold text-dvci-primary mb-6 border-b-4 border-dvci-secondary pb-2">School Information & Contact</h2>
+
+                        <div class="bg-white p-6 rounded-xl shadow-xl">
+                            <table class="w-full text-lg">
+                                <tbody class="divide-y divide-gray-100">
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-3 font-semibold w-1/3 flex items-center"><i data-lucide="map-pin" class="w-5 h-5 mr-2 text-dvci-secondary"></i> Address:</td>
+                                        <td class="py-3 text-dvci-text"><b>Stone Rock Village,Catalunan Grande, Davao City</b></td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-3 font-semibold flex items-center"><i data-lucide="globe" class="w-5 h-5 mr-2 text-dvci-secondary"></i> Google Map:</td>
+                                        <td class="py-3"><a href="https://maps.app.goo.gl/KTghwBYDWn8hbm7k9" target="_blank" class="text-blue-600 hover:underline font-bold">View Map</a></td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-3 font-semibold flex items-center"><i data-lucide="facebook" class="w-5 h-5 mr-2 text-dvci-secondary"></i> Facebook:</td>
+                                        <td class="py-3"><a href="https://www.facebook.com/DVCians/" target="_blank" class="text-blue-600 hover:underline font-bold">/DVCians</a></td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-3 font-semibold flex items-center"><i data-lucide="phone" class="w-5 h-5 mr-2 text-dvci-secondary"></i> Tel. no.:</td>
+                                        <td class="py-3">
+                                            <a href="tel:09511649654" class="text-dvci-text font-bold hover:underline">(0951-164-9654) Main Office</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <section id="academics" class="scroll-mt-header pt-8 mb-12">
+                        <h2 class="text-3xl font-bold text-dvci-primary mb-6 border-b-4 border-dvci-secondary pb-2">Comprehensive Academic Programs</h2>
+
+                        <div class="bg-dvci-primary/5 p-6 rounded-xl shadow-xl border-l-4 border-dvci-primary">
+                            <p class="mb-6 text-gray-700">Davao Vision Colleges, Inc. is committed to holistic development across secondary and tertiary levels, offering diverse programs to prepare students for their chosen careers.</p>
+                            
+                            <div class="grid md:grid-cols-2 gap-8">
+                                
+                                <div>
+                                    <h3 class="text-2xl font-bold text-dvci-primary mb-4 flex items-center"><i data-lucide="graduation-cap" class="w-6 h-6 mr-2 text-dvci-secondary"></i> College Degrees</h3>
+                                    <ul class="text-lg text-gray-700 space-y-2 font-medium">
+                                        <li><i data-lucide="check-circle" class="w-4 h-4 mr-2 inline text-green-500"></i> Bachelor of Science in Information Technology (BSIT)</li>
+                                        <li><i data-lucide="check-circle" class="w-4 h-4 mr-2 inline text-green-500"></i> Bachelor of Elementary Education (BEEd)</li>
+                                        <li><i data-lucide="check-circle" class="w-4 h-4 mr-2 inline text-green-500"></i> BSEd Major in English</li>
+                                        <li><i data-lucide="check-circle" class="w-4 h-4 mr-2 inline text-green-500"></i> BSEd Major in Mathematics</li>
+                                        <li><i data-lucide="check-circle" class="w-4 h-4 mr-2 inline text-green-500"></i> Bachelor of Arts (AB) in Theology</li>
+                                    </ul>
+                                </div>
+                                
+                                <div>
+                                    <h3 class="text-2xl font-bold text-dvci-primary mb-4 flex items-center"><i data-lucide="school" class="w-6 h-6 mr-2 text-dvci-secondary"></i> Senior High School Strands</h3>
+                                    <ul class="text-lg text-gray-700 space-y-2 font-medium">
+                                        <li><i data-lucide="chevrons-right" class="w-4 h-4 mr-2 inline text-dvci-secondary"></i> Accountancy, Business, and Management (ABM)</li>
+                                        <li><i data-lucide="chevrons-right" class="w-4 h-4 mr-2 inline text-dvci-secondary"></i> Science, Technology, Engineering, and Mathematics (STEM)</li>
+                                        <li><i data-lucide="chevrons-right" class="w-4 h-4 mr-2 inline text-dvci-secondary"></i> Information and Communications Technology (ICT)</li>
+                                        <li><i data-lucide="chevrons-right" class="w-4 h-4 mr-2 inline text-dvci-secondary"></i> General Academic Strand (GAS)</li>
+                                        <li><i data-lucide="chevrons-right" class="w-4 h-4 mr-2 inline text-dvci-secondary"></i> Humanities and Social Sciences (HUMSS)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                     <section id="gallery" class="scroll-mt-header pt-8 mb-12 animate-reveal">
+                        <h2 class="text-3xl font-bold text-dvci-primary mb-6 border-b-4 border-dvci-secondary pb-2">Campus Highlights & Events</h2>
+                        <p class="mb-8 text-lg text-gray-600">See highlights from recent school-wide events, student organization activities, and campus initiatives.</p>
+                        <div id="image-gallery" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <div class="relative bg-white rounded-xl shadow-lg overflow-hidden group">
+                                <img src="https://scontent-mnl1-1.xx.fbcdn.net/v/t39.30808-6/572777219_122253544226141247_1457438913763899696_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeElXmWdTBqTG6Mq0TOd1W7mo4jKpjcps6ajiMqmNymzpmBXBIz7SU5CQfa0cRJqY0I7ZBTxAu7YpPAx0tjrpyRo&_nc_ohc=MNI1wgwdDDEQ7kNvwE40ZuX&_nc_oc=AdliLTkU5NKg15BhpySfAbv0o9O_MF0oqooLkZLARxDgMc_txF99DxntcBrEieZ9NiHIgJjNhDlGIeqjllwhH9AB&_nc_zt=23&_nc_ht=scontent-mnl1-1.xx&_nc_gid=-gfx-tWRlr1PmTFoZ3A-pQ&oh=00_AfhhpyD7__tiak-QGGKe8hRtZEYi9DmXOPGYoGDaMG_YDA&oe=690E3389" alt="Student Organization Group Photo" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                                    <p class="text-white text-center font-semibold">Student Organization Leadership Summit</p>
+                                </div>
+                            </div>
+                            <div class="relative bg-white rounded-xl shadow-lg overflow-hidden group">
+                                <img src="https://scontent-mnl3-3.xx.fbcdn.net/v/t1.15752-9/574058451_800129752650047_5946734815832454647_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGd3CQEz-ZjOs816vmjn2ebKU1t40ecAvApTW3jR5wC8AmJw-ORWEtK74-0pQP0mpCNLLT_gVPPOigDkxpdEjVm&_nc_ohc=0V9UXhN_HzUQ7kNvwEGPPd6&_nc_oc=Adml9PZEZlp_RJWcC7UegPbS6pNRV6hxG6qGdlXiWjJ3_DudgqTrlxCTtT8MWUg3kQ_akzBYFOpvXdmg8lFxECtB&_nc_zt=23&_nc_ht=scontent-mnl3-3.xx&oh=03_Q7cD3wF46oTuz2x8ZgvXghCcgHStOt3Io0KxJ-gUIgomcjeRrw&oe=692FB89E" alt="Campus Announcement" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                                    <p class="text-white text-center font-semibold">Campus Announcement Board</p>
+                                </div>
+                            </div>
+                            <div class="relative bg-white rounded-xl shadow-lg overflow-hidden group">
+                                <img src="https://scontent-mnl3-3.xx.fbcdn.net/v/t1.15752-9/574911974_1338292684414209_2635169268083622711_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGVYSIiFOVdsTWZc6aADeHxqc8ZA0MzWRqpzxkDQzNZGiM2b7JJWAOeNfLxBUzReq9MLAqZHXEVgjzo3aknDw9M&_nc_ohc=p58mDF1SFosQ7kNvwGYa0Ja&_nc_oc=Adm6BkfbTGybHEMwoNJ9skeyl-wSEO3ffREieSDOAfksV_Dh9I3rAPR257f1WC6QqNDpPnCGw8APUrWGpgNj4xu9&_nc_zt=23&_nc_ht=scontent-mnl3-3.xx&oh=03_Q7cD3wHeAr9MCsmYgu2b4JmDU6ubeGZ45-Azsf9uiir54N3CYA&oe=692FAEF7" alt="Inter-College Competition" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                                    <p class="text-white text-center font-semibold">Inter-College Competition Finals</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="lg:col-span-3">
+                    <div class="lg:sticky lg:top-24 bg-white p-6 rounded-xl shadow-xl">
+                        <h4 class="text-2xl font-bold text-dvci-primary mb-4">Quick Links</h4>
+                        <ul class="space-y-2 text-lg">
+                            <li><a href="#about" class="text-gray-600 hover:text-dvci-secondary transition duration-150 flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 mr-2"></i> About DVCI</a></li>
+                            <li><a href="#academics" class="text-gray-600 hover:text-dvci-secondary transition duration-150 flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 mr-2"></i> Academic Programs</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-dvci-secondary transition duration-150 flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 mr-2"></i> Admissions</a></li>
+                        </ul>
+
+                        <div class="mt-8 pt-4 border-t border-gray-200">
+                            <h4 class="text-2xl font-bold text-dvci-primary mb-4">Announcements</h4>
+                            <div class="space-y-3 text-sm text-gray-600">
+                                <p class="border-l-2 border-dvci-secondary pl-2">College Enrollment for 1st Semester is ongoing.</p>
+                                <p class="border-l-2 border-dvci-secondary pl-2">Finals Week Schedule now posted on campus.</p>
+                                <p class="border-l-2 border-dvci-secondary pl-2">Scholarship application deadline approaching soon!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dvci-primary text-white py-8 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2024 Davao Vision Colleges, Inc. All rights reserved. | Vision, Integrity, Excellence.</p>
+        </div>
+    </footer>
+    <script>
+        // Initialize Lucide Icons on load
+        window.onload = function() {
+            lucide.createIcons();
+            // Start the simple scroll animation listener
+            window.addEventListener("scroll", reveal);
+        };
+
+        // Simple scroll observer for animations (Ensures 'animate-fadeInUp' class is added on scroll)
+        function reveal() {
+            var reveals = document.querySelectorAll(".animate-fadeInUp");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+    </script>
+</body>
+</html>
